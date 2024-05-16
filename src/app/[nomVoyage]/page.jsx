@@ -19,7 +19,7 @@ export default function Voyage(props) {
   useEffect(() => {
     // Déclenchement de la récupération des données de personnages au montage du composant.
     try {
-      fetch("http://127.0.0.1:8000/api/voyage/" + props.params.nomVoyage)
+      fetch("https://simplondevgrenoble.nohost.me/elodiel/agenceVoyage/public/api/voyage/" + props.params.nomVoyage)
       // fetch("https://simplondevgrenoble.nohost.me/elodiel/agenceVoyage/public/api/voyage/" + props.params.nomVoyage)
         .then((response) => response.json()) // Transformation de la réponse en JSON.
         .then((data) => {
@@ -41,7 +41,7 @@ export default function Voyage(props) {
             <Image
               width={250}
               height={250}
-              src={"http://localhost:8000/images/" + data.endroit.lienImage}
+              src={"https://simplondevgrenoble.nohost.me/elodiel/agenceVoyage/public/images/" + data.endroit.lienImage}
             />
             <div id="infos">
               <p class="fs-2">{data.endroit.nom}</p>

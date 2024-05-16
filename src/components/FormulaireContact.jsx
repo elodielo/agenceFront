@@ -20,7 +20,7 @@ export default function FormulaireContact() {
 
     try {
       // const response = await fetch("https://simplondevgrenoble.nohost.me/elodiel/agenceVoyage/public/api/contact/new", {
-      const response = await fetch("http://127.0.0.1:8000/api/contact/new", {
+      const response = await fetch("https://simplondevgrenoble.nohost.me/elodiel/agenceVoyage/public/api/contact/new", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

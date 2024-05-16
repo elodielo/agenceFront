@@ -19,7 +19,7 @@ export default function FormulaireContactResa(props) {
     try {
       const response = await fetch(
         // "https://simplondevgrenoble.nohost.me/elodiel/agenceVoyage/public/api/contactResa/new/" + props.data.nom,
-        "http://127.0.0.1:8000/api/contactResa/new/" + props.data.nom,
+        "https://simplondevgrenoble.nohost.me/elodiel/agenceVoyage/public/api/contactResa/new/" + props.data.nom,
         {
           method: "POST",
           headers: {
