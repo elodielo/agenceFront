@@ -1,0 +1,16 @@
+.boitePhoto{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: rgb(210, 166, 166);
+}
+
+.link-unstyled {
+    color: inherit;
+    text-decoration: none;
+    /* Autres réinitialisations de styles si nécessaire */
+  }
+
+  .tailleBox{
+    width: 20%;
+  }
