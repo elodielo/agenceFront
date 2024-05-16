@@ -41,7 +41,7 @@ export default function BandeauPhotos() {
         <p> {voyage.nom}</p>
         <p class="fst-italic"> {voyage.endroit.nom}</p>
         <Image width={200} height={200}
-        src={"https://simplondevgrenoble.nohost.me/elodiel/agenceVoyage/images/" + voyage.endroit.lienImage}
+        src={"https://simplondevgrenoble.nohost.me/elodiel/agenceVoyage/public/images/" + voyage.endroit.lienImage}
       />
       </li>
       </Link>
