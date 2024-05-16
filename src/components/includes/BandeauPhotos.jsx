@@ -28,7 +28,7 @@ export default function BandeauPhotos(props) {
                     width={200}
                     height={200}
                     src={
-                      "https://simplondevgrenoble.nohost.me/elodiel/agenceVoyage/public/images/" + voyage.endroit.lienImage
+                      "https://simplondevgrenoble.nohost.me/elodiel/agenceVoyage/images/" + voyage.endroit.lienImage
                     }
                   />
                   {/* <p> image:"http://127.0.0.1:8000/images/" +{voyage.endroit.lienImage} </p> */}
